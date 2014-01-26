@@ -1,0 +1,32 @@
+﻿
+<chapter>
+	<title>Что такое «DocBook»?</title>
+	<para>
+	Ели вдруг, кто не в курсе, <ulink url="http://ru.wikipedia.org/wiki/DocBook">
+			<citetitle>DocBook</citetitle>
+		</ulink> - это стандарт описания документа и ничего полезного, 
+	кроме как, стандартизации содержимого он не делает. Причем стандарт достаточно старый, и многими, почему-то, считается уже устаревшим. 
+
+	</para>
+	<para>
+	 Написание документа в формате DocBook очень напоминает работу с HTML, только используется свой набор тегов и правил их употребления.
+	</para>
+	<programlisting language="xml">
+		<![CDATA[
+		<book>
+			<chapter>
+			<title>First Chapter</title>
+				<para>Hello world!</para>
+			</chapter> 
+		</book>
+]]>
+	</programlisting>
+	<para>Данный пример демонстрирует описание книги состоящий из одной главы с названием "First Chapter" содержащий абзац с текстом "Hello Word!".
+	Полный список тегов, а также примеры их применения можно подсмотреть на сайте проекта <ulink url="http://www.docbook.org/">
+			<citetitle>www.docbook.org</citetitle>
+		</ulink>. 
+	От себя хочу заметить, что набор тегов  для описания содержимого очень (даже очень очень) большой, но  в повседневной работе мы используем около 20.
+	</para>
+
+</chapter>
+

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+
+<book xmlns:xi="http://www.w3.org/2001/XInclude">
+   <bookinfo>
+  <corpauthor>Общество с ограниченной ответственностью
+    «Название компании»
+  </corpauthor>  
+  <title>Разработка документации при помощи Docbook</title>  
+  <subtitle>[Пример к статье]</subtitle>
+  <address><city>г.Нижний Новгород</city></address>
+  <pubdate>2014 г.</pubdate>
+</bookinfo>
+    <xi:include href="chapter_1.xml"/>
+	<xi:include href="chapter_2.xml"/>
+	<xi:include href="chapter_3.xml"/>
+	<xi:include href="chapter_4.xml"/>
+	
+</book>

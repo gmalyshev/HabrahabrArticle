@@ -1,0 +1,2 @@
+del "..\document\*.fo
+
